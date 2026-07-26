@@ -4,6 +4,6 @@ class App {
     public:
         void run();
     private:
-        void showMenu();
+        void showBanner();
         void handleInput();
 };
