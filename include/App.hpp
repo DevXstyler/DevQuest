@@ -1,6 +1,7 @@
 #pragma once 
 
 #include "CommandHandler.hpp"
+#include "Menu.hpp"
 
 class App {
     public:
@@ -11,4 +12,5 @@ class App {
 
         // Create a object of the CommandHandler Class
         CommandHandler handler;
+        Menu menu;
 };

@@ -9,4 +9,5 @@ void CommandHandler::handleCommand(const std::string& command){
     else if (command == "help") {
         std::cout << "This is not very helpful.";    
     }
+    std::cout << std::endl;
 }

@@ -9,6 +9,7 @@ add_executable(DevQuest
     src/main.cpp
     src/App.cpp
     src/CommandHandler.cpp
+    src/Menu.cpp
 )
 
 target_include_directories(DevQuest PRIVATE include)
